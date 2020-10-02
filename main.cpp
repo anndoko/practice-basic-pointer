@@ -19,5 +19,8 @@ int main(){
     // p
     cout << "Address stored in p pointer variable: \n" << p << "\n" << endl;
 
+    // *(&p)
+    cout<< "Value stored at address of pointer p:\n" << *(&p) << "\n" <<endl;
+    
     return 0;
 }
